@@ -1,6 +1,11 @@
+.container{
+    width: 512px;
+}
+
 .grid{
     height: 30px;
     width: 30px;
     border: 1px solid red;
-    float: left;
+    display: inline-block;
+    /*float: left;*/
 }

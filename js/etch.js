@@ -6,6 +6,7 @@ for(let i = 0; i < 256; i++){
     container.appendChild(grid);
     
     if(i>0 && i%16==0){
-        grid.style.clear = 'left';
+        /*Remove comment from float: left; in css file
+        grid.style.clear = 'left'; */
     }
 }
