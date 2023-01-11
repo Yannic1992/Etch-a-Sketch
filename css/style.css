@@ -1,7 +1,9 @@
 .container{
-    width: 512px;
-    display: flex;
-    flex-wrap: wrap;
+    /*width: 512px; for inline-box and flex*/
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    /*display: flex;
+    flex-wrap: wrap;*/
 }
 
 .grid{
