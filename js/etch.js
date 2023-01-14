@@ -23,7 +23,6 @@ function deleteGrid(){
 function addEffect() {
     const gridboxes = Array.from(document.querySelectorAll(".grid"));
     gridboxes.forEach(box => {
-        const colorFader = 100;
         box.addEventListener("mouseover", function() {
             switch(document.getElementById(box.id).style.backgroundColor) {
                 case "rgb(255, 255, 255)":
