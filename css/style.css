@@ -1,15 +1,14 @@
 .container{
-    /*width: 512px; for inline-box and flex*/
-    display: inline-grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    /*display: flex;
-    flex-wrap: wrap;*/
+    width: 480px;
+    border: 1px solid red;
+    /*display: inline-grid;*/
+    /*grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;*/
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .grid{
-    height: 30px;
-    width: 30px;
-    border: 1px solid red;
+    background-color: lightgray; 
     /*display: inline-block;*/
     /*float: left;*/
 }
