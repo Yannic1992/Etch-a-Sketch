@@ -23,7 +23,8 @@ function addEffect() {
     const gridboxes = Array.from(document.querySelectorAll(".grid"));
     gridboxes.forEach(box => {
         box.addEventListener("mouseover", function() {
-            document.getElementById(box.id).style.backgroundColor = "black";
+            document.getElementById(box.id).style.backgroundColor = "rgb(" + Math.floor(Math.random()*256) + ", " + 
+                                                                    Math.floor(Math.random()*256) + ", " + Math.floor(Math.random()*256) + ")";
     })});
 }
 
